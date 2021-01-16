@@ -1,0 +1,7 @@
+const char *ssid = "Your Wifi ssid";
+const char *password = "wifi password";
+
+const char *mqtt_server = "mqtt ip";
+const char *mqtt_username = "mqtt user";
+const char *mqtt_password = "mqtt pass";
+const int mqtt_port = 1883;

@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/gempir/.arduino15/packages/esp8266/tools/**",
+                "/home/gempir/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/**",
+                "/home/gempir/.arduino15/packages/arduino/tools/**",
+                "/home/gempir/Arduino/libraries/**",
+                "/home/gempir/.arduino15/packages/arduino/hardware/avr/1.8.3/**",
+                "${workspaceRoot}"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceRoot}"
+                ]
+            },
+            "forcedInclude": [],
+            "defines": [
+                "USBCON"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
