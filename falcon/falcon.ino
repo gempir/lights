@@ -23,7 +23,7 @@ byte brightness = 255;
 
 //Your amount of LEDs to be wrote, and their configuration for FastLED
 #define NUM_LEDS 5
-#define DATA_PIN 4
+#define DATA_PIN 5
 //#define CLOCK_PIN 5
 #define CHIPSET WS2812B
 #define COLOR_ORDER GRB
@@ -75,7 +75,6 @@ void setup_wifi()
 
     delay(10);
     // We start by connecting to a WiFi network
-    Serial.println();
     Serial.print("Connecting to ");
     Serial.println(ssid);
 
